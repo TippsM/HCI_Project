@@ -1,3 +1,852 @@
-{
-    "top_tracks": []
-}
+[
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4BbsHmXEghoPPevQjPnHXx"
+      },
+      "href": "https://api.spotify.com/v1/albums/4BbsHmXEghoPPevQjPnHXx",
+      "id": "4BbsHmXEghoPPevQjPnHXx",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27388208159b1b3c69eefdeb2e0",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0288208159b1b3c69eefdeb2e0",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485188208159b1b3c69eefdeb2e0",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "F-1 Trillion",
+      "release_date": "2024-08-15",
+      "release_date_precision": "day",
+      "total_tracks": 18,
+      "type": "album",
+      "uri": "spotify:album:4BbsHmXEghoPPevQjPnHXx"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4oUHIQIBe0LHzYfvXNW4QM"
+        },
+        "href": "https://api.spotify.com/v1/artists/4oUHIQIBe0LHzYfvXNW4QM",
+        "id": "4oUHIQIBe0LHzYfvXNW4QM",
+        "name": "Morgan Wallen",
+        "type": "artist",
+        "uri": "spotify:artist:4oUHIQIBe0LHzYfvXNW4QM"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 178205,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "USUM72404990"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/5IZXB5IKAD2qlvTPJYDCFB"
+    },
+    "href": "https://api.spotify.com/v1/tracks/5IZXB5IKAD2qlvTPJYDCFB",
+    "id": "5IZXB5IKAD2qlvTPJYDCFB",
+    "is_local": false,
+    "is_playable": true,
+    "name": "I Had Some Help (Feat. Morgan Wallen)",
+    "popularity": 84,
+    "track_number": 3,
+    "type": "track",
+    "uri": "spotify:track:5IZXB5IKAD2qlvTPJYDCFB"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+          },
+          "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
+          "id": "06HL4z0CvFAxyc27GXpf02",
+          "name": "Taylor Swift",
+          "type": "artist",
+          "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/1Mo4aZ8pdj6L1jx8zSwJnt"
+      },
+      "href": "https://api.spotify.com/v1/albums/1Mo4aZ8pdj6L1jx8zSwJnt",
+      "id": "1Mo4aZ8pdj6L1jx8zSwJnt",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2735076e4160d018e378f488c33",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e025076e4160d018e378f488c33",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048515076e4160d018e378f488c33",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "THE TORTURED POETS DEPARTMENT",
+      "release_date": "2024-04-18",
+      "release_date_precision": "day",
+      "total_tracks": 16,
+      "type": "album",
+      "uri": "spotify:album:1Mo4aZ8pdj6L1jx8zSwJnt"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/06HL4z0CvFAxyc27GXpf02"
+        },
+        "href": "https://api.spotify.com/v1/artists/06HL4z0CvFAxyc27GXpf02",
+        "id": "06HL4z0CvFAxyc27GXpf02",
+        "name": "Taylor Swift",
+        "type": "artist",
+        "uri": "spotify:artist:06HL4z0CvFAxyc27GXpf02"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 228965,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USUG12401028"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/2OzhQlSqBEmt7hmkYxfT6m"
+    },
+    "href": "https://api.spotify.com/v1/tracks/2OzhQlSqBEmt7hmkYxfT6m",
+    "id": "2OzhQlSqBEmt7hmkYxfT6m",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Fortnight (feat. Post Malone)",
+    "popularity": 84,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:2OzhQlSqBEmt7hmkYxfT6m"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4g1ZRSobMefqF6nelkgibi"
+      },
+      "href": "https://api.spotify.com/v1/albums/4g1ZRSobMefqF6nelkgibi",
+      "id": "4g1ZRSobMefqF6nelkgibi",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2739478c87599550dd73bfa7e02",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e029478c87599550dd73bfa7e02",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "Hollywood's Bleeding",
+      "release_date": "2019-09-06",
+      "release_date_precision": "day",
+      "total_tracks": 17,
+      "type": "album",
+      "uri": "spotify:album:4g1ZRSobMefqF6nelkgibi"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1zNqQNIdeOUZHb8zbZRFMX"
+        },
+        "href": "https://api.spotify.com/v1/artists/1zNqQNIdeOUZHb8zbZRFMX",
+        "id": "1zNqQNIdeOUZHb8zbZRFMX",
+        "name": "Swae Lee",
+        "type": "artist",
+        "uri": "spotify:artist:1zNqQNIdeOUZHb8zbZRFMX"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 157560,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USUM71814888"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/0RiRZpuVRbi7oqRdSMwhQY"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0RiRZpuVRbi7oqRdSMwhQY",
+    "id": "0RiRZpuVRbi7oqRdSMwhQY",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Sunflower - Spider-Man: Into the Spider-Verse",
+    "popularity": 81,
+    "track_number": 12,
+    "type": "track",
+    "uri": "spotify:track:0RiRZpuVRbi7oqRdSMwhQY"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4g1ZRSobMefqF6nelkgibi"
+      },
+      "href": "https://api.spotify.com/v1/albums/4g1ZRSobMefqF6nelkgibi",
+      "id": "4g1ZRSobMefqF6nelkgibi",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b2739478c87599550dd73bfa7e02",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e029478c87599550dd73bfa7e02",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d000048519478c87599550dd73bfa7e02",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "Hollywood's Bleeding",
+      "release_date": "2019-09-06",
+      "release_date_precision": "day",
+      "total_tracks": 17,
+      "type": "album",
+      "uri": "spotify:album:4g1ZRSobMefqF6nelkgibi"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 215280,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USUM71915699"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/21jGcNKet2qwijlDFuPiPb"
+    },
+    "href": "https://api.spotify.com/v1/tracks/21jGcNKet2qwijlDFuPiPb",
+    "id": "21jGcNKet2qwijlDFuPiPb",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Circles",
+    "popularity": 83,
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:21jGcNKet2qwijlDFuPiPb"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4BbsHmXEghoPPevQjPnHXx"
+      },
+      "href": "https://api.spotify.com/v1/albums/4BbsHmXEghoPPevQjPnHXx",
+      "id": "4BbsHmXEghoPPevQjPnHXx",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27388208159b1b3c69eefdeb2e0",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0288208159b1b3c69eefdeb2e0",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485188208159b1b3c69eefdeb2e0",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "F-1 Trillion",
+      "release_date": "2024-08-15",
+      "release_date_precision": "day",
+      "total_tracks": 18,
+      "type": "album",
+      "uri": "spotify:album:4BbsHmXEghoPPevQjPnHXx"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/718COspgdWOnwOFpJHRZHS"
+        },
+        "href": "https://api.spotify.com/v1/artists/718COspgdWOnwOFpJHRZHS",
+        "id": "718COspgdWOnwOFpJHRZHS",
+        "name": "Luke Combs",
+        "type": "artist",
+        "uri": "spotify:artist:718COspgdWOnwOFpJHRZHS"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 164011,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USUM72405595"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/6StwwqB84sJeLr7tZDTxEX"
+    },
+    "href": "https://api.spotify.com/v1/tracks/6StwwqB84sJeLr7tZDTxEX",
+    "id": "6StwwqB84sJeLr7tZDTxEX",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Guy For That (Feat. Luke Combs)",
+    "popularity": 78,
+    "track_number": 8,
+    "type": "track",
+    "uri": "spotify:track:6StwwqB84sJeLr7tZDTxEX"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR"
+      },
+      "href": "https://api.spotify.com/v1/albums/6trNtQUgC8cgbWcqoMYkOR",
+      "id": "6trNtQUgC8cgbWcqoMYkOR",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02b1c4b76e23414c9f20242268",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851b1c4b76e23414c9f20242268",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "beerbongs & bentleys",
+      "release_date": "2018-04-27",
+      "release_date_precision": "day",
+      "total_tracks": 18,
+      "type": "album",
+      "uri": "spotify:album:6trNtQUgC8cgbWcqoMYkOR"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1URnnhqYAYcrqrcwql10ft"
+        },
+        "href": "https://api.spotify.com/v1/artists/1URnnhqYAYcrqrcwql10ft",
+        "id": "1URnnhqYAYcrqrcwql10ft",
+        "name": "21 Savage",
+        "type": "artist",
+        "uri": "spotify:artist:1URnnhqYAYcrqrcwql10ft"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 218146,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "USUM71710087"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/0e7ipj03S05BNilyu5bRzt"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0e7ipj03S05BNilyu5bRzt",
+    "id": "0e7ipj03S05BNilyu5bRzt",
+    "is_local": false,
+    "is_playable": true,
+    "name": "rockstar (feat. 21 Savage)",
+    "popularity": 80,
+    "track_number": 6,
+    "type": "track",
+    "uri": "spotify:track:0e7ipj03S05BNilyu5bRzt"
+  },
+  {
+    "album": {
+      "album_type": "single",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B"
+          },
+          "href": "https://api.spotify.com/v1/artists/2RQXRUsr4IW1f3mKyKsy4B",
+          "id": "2RQXRUsr4IW1f3mKyKsy4B",
+          "name": "Noah Kahan",
+          "type": "artist",
+          "uri": "spotify:artist:2RQXRUsr4IW1f3mKyKsy4B"
+        },
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4XahqkOmEsKLKEhBpX8DAe"
+      },
+      "href": "https://api.spotify.com/v1/albums/4XahqkOmEsKLKEhBpX8DAe",
+      "id": "4XahqkOmEsKLKEhBpX8DAe",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273f519f148d88bf65074b4a3a9",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02f519f148d88bf65074b4a3a9",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851f519f148d88bf65074b4a3a9",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "Dial Drunk (with Post Malone)",
+      "release_date": "2023-07-18",
+      "release_date_precision": "day",
+      "total_tracks": 1,
+      "type": "album",
+      "uri": "spotify:album:4XahqkOmEsKLKEhBpX8DAe"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2RQXRUsr4IW1f3mKyKsy4B"
+        },
+        "href": "https://api.spotify.com/v1/artists/2RQXRUsr4IW1f3mKyKsy4B",
+        "id": "2RQXRUsr4IW1f3mKyKsy4B",
+        "name": "Noah Kahan",
+        "type": "artist",
+        "uri": "spotify:artist:2RQXRUsr4IW1f3mKyKsy4B"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 213817,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "USUM72308676"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/22VHOlVYBqytsrAqV8yXBK"
+    },
+    "href": "https://api.spotify.com/v1/tracks/22VHOlVYBqytsrAqV8yXBK",
+    "id": "22VHOlVYBqytsrAqV8yXBK",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Dial Drunk (with Post Malone)",
+    "popularity": 79,
+    "track_number": 1,
+    "type": "track",
+    "uri": "spotify:track:22VHOlVYBqytsrAqV8yXBK"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/4BbsHmXEghoPPevQjPnHXx"
+      },
+      "href": "https://api.spotify.com/v1/albums/4BbsHmXEghoPPevQjPnHXx",
+      "id": "4BbsHmXEghoPPevQjPnHXx",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27388208159b1b3c69eefdeb2e0",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0288208159b1b3c69eefdeb2e0",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485188208159b1b3c69eefdeb2e0",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "F-1 Trillion",
+      "release_date": "2024-08-15",
+      "release_date_precision": "day",
+      "total_tracks": 18,
+      "type": "album",
+      "uri": "spotify:album:4BbsHmXEghoPPevQjPnHXx"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1UTPBmNbXNTittyMJrNkvw"
+        },
+        "href": "https://api.spotify.com/v1/artists/1UTPBmNbXNTittyMJrNkvw",
+        "id": "1UTPBmNbXNTittyMJrNkvw",
+        "name": "Blake Shelton",
+        "type": "artist",
+        "uri": "spotify:artist:1UTPBmNbXNTittyMJrNkvw"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 195122,
+    "explicit": false,
+    "external_ids": {
+      "isrc": "USUM72405604"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/0mNzElhEofvgMWAJoOA4q9"
+    },
+    "href": "https://api.spotify.com/v1/tracks/0mNzElhEofvgMWAJoOA4q9",
+    "id": "0mNzElhEofvgMWAJoOA4q9",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Pour Me A Drink (Feat. Blake Shelton)",
+    "popularity": 75,
+    "track_number": 4,
+    "type": "track",
+    "uri": "spotify:track:0mNzElhEofvgMWAJoOA4q9"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/5s0rmjP8XOPhP6HhqOhuyC"
+      },
+      "href": "https://api.spotify.com/v1/albums/5s0rmjP8XOPhP6HhqOhuyC",
+      "id": "5s0rmjP8XOPhP6HhqOhuyC",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b27355404f712deb84d0650a4b41",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e0255404f712deb84d0650a4b41",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000485155404f712deb84d0650a4b41",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "Stoney (Deluxe)",
+      "release_date": "2016-12-09",
+      "release_date_precision": "day",
+      "total_tracks": 18,
+      "type": "album",
+      "uri": "spotify:album:5s0rmjP8XOPhP6HhqOhuyC"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0VRj0yCOv2FXJNP47XQnx5"
+        },
+        "href": "https://api.spotify.com/v1/artists/0VRj0yCOv2FXJNP47XQnx5",
+        "id": "0VRj0yCOv2FXJNP47XQnx5",
+        "name": "Quavo",
+        "type": "artist",
+        "uri": "spotify:artist:0VRj0yCOv2FXJNP47XQnx5"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 220293,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "USUM71614484"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/3a1lNhkSLSkpJE4MSHpDu9"
+    },
+    "href": "https://api.spotify.com/v1/tracks/3a1lNhkSLSkpJE4MSHpDu9",
+    "id": "3a1lNhkSLSkpJE4MSHpDu9",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Congratulations",
+    "popularity": 78,
+    "track_number": 12,
+    "type": "track",
+    "uri": "spotify:track:3a1lNhkSLSkpJE4MSHpDu9"
+  },
+  {
+    "album": {
+      "album_type": "album",
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+          },
+          "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+          "id": "246dkjvS1zLTtiykXe5h60",
+          "name": "Post Malone",
+          "type": "artist",
+          "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+        }
+      ],
+      "external_urls": {
+        "spotify": "https://open.spotify.com/album/6trNtQUgC8cgbWcqoMYkOR"
+      },
+      "href": "https://api.spotify.com/v1/albums/6trNtQUgC8cgbWcqoMYkOR",
+      "id": "6trNtQUgC8cgbWcqoMYkOR",
+      "images": [
+        {
+          "url": "https://i.scdn.co/image/ab67616d0000b273b1c4b76e23414c9f20242268",
+          "width": 640,
+          "height": 640
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00001e02b1c4b76e23414c9f20242268",
+          "width": 300,
+          "height": 300
+        },
+        {
+          "url": "https://i.scdn.co/image/ab67616d00004851b1c4b76e23414c9f20242268",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "is_playable": true,
+      "name": "beerbongs & bentleys",
+      "release_date": "2018-04-27",
+      "release_date_precision": "day",
+      "total_tracks": 18,
+      "type": "album",
+      "uri": "spotify:album:6trNtQUgC8cgbWcqoMYkOR"
+    },
+    "artists": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/246dkjvS1zLTtiykXe5h60"
+        },
+        "href": "https://api.spotify.com/v1/artists/246dkjvS1zLTtiykXe5h60",
+        "id": "246dkjvS1zLTtiykXe5h60",
+        "name": "Post Malone",
+        "type": "artist",
+        "uri": "spotify:artist:246dkjvS1zLTtiykXe5h60"
+      }
+    ],
+    "disc_number": 1,
+    "duration_ms": 231266,
+    "explicit": true,
+    "external_ids": {
+      "isrc": "USUM71805170"
+    },
+    "external_urls": {
+      "spotify": "https://open.spotify.com/track/7dt6x5M1jzdTEt8oCbisTK"
+    },
+    "href": "https://api.spotify.com/v1/tracks/7dt6x5M1jzdTEt8oCbisTK",
+    "id": "7dt6x5M1jzdTEt8oCbisTK",
+    "is_local": false,
+    "is_playable": true,
+    "name": "Better Now",
+    "popularity": 77,
+    "track_number": 9,
+    "type": "track",
+    "uri": "spotify:track:7dt6x5M1jzdTEt8oCbisTK"
+  }
+]
