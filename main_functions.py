@@ -1,6 +1,7 @@
 import json
-from turtle import st
+import requests
 
+#--------------------------------------------------------------------------------------
 
 def read_from_file(file_name):
     with open(file_name,"r") as read_file:
@@ -13,6 +14,7 @@ def save_to_file(data,file_name):
         json.dump(data,write_file,indent=2)
         print("You successfully saved to {}.".format(file_name))
 
+#--------------------------------------------------------------------------------------
 
 # map creator
 #@st.cache_data
@@ -28,3 +30,29 @@ def map_creator(latitude, longitude):
 
     # call to render Folium map in Streamlit
     folium_static(m)
+
+#--------------------------------------------------------------------------------------
+
+def getArtistCoordinates(artist_name):
+
+    my_keys = read_from_file("ticket_masterAPI.json")
+    ticket_master_key = my_keys["ticket_master"]
+
+    url = f"https://app.ticketmaster.com/discovery/v2/events.json"
+    params = {
+        'keyword': artist_name,
+        'apikey': ticket_master_key,
+    }
+
+    response = requests.get(url, params=params)
+    data = response.json()
+    events = data.get('_embedded').get('events')
+    venue = events[0].get('_embedded', {}).get('venues', [])[0]
+    location = venue.get('location').get('latitude'), venue.get('location').get('longitude')
+
+    save_to_file(location, "artistCoordinates.json")
+
+    return location
+
+
+#--------------------------------------------------------------------------------------
