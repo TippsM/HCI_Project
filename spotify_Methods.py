@@ -1,11 +1,10 @@
 import json
-from turtle import st
-
 import requests
 from dotenv import load_dotenv
 import os
 import base64
 from requests import post, get
+
 
 #-----------------------------------------------------------------------------
 # load/get API data
@@ -42,6 +41,7 @@ api_key = get_token()
 #-----------------------------------------------------------------------------
 
 def getArtistID(name, token):
+
     headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json',
@@ -88,19 +88,19 @@ def getRecommendation(artist_id,token):
 #-----------------------------------------------------------------------------
 
 
-def get_artist_top_tracks(token, artist_id):
+def getToptracks(token, artist_id):
     url = f"https://api.spotify.com/v1/artists/{artist_id}/top-tracks"
     headers = get_auth_header(token)
     country = {"market": "US"}
     result = get(url, headers=headers, params=country)
     json_result = result.json()
-    return json_result.get("tracks", [])
+    return json_result.get("tracks")
 
+#-----------------------------------------------------------------------------
 
-def start_playback(token, device_id, track_uri):
-    url = "https://api.spotify.com/v1/me/player/play"
-    headers = {"Authorization": f"Bearer {token}"}
-    data = {"uris": [track_uri], "device_id": device_id}
-    response = requests.put(url, headers=headers, json=data)
-    return response.status_code
-
+def geArtistData(token, artist_id):
+    url = f"https://api.spotify.com/v1/artists/{artist_id}"
+    headers = get_auth_header(token)
+    country = {"market": "US"}
+    result = get(url, headers=headers, params=country)
+    return result.json()
