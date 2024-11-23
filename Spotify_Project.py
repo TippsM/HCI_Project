@@ -11,9 +11,11 @@ st.header("🎵Explore your Favourite Artist🎵")
 st.subheader("Let's Get Started!")
 
 
-with st.form("Choose an artist",clear_on_submit=True):
-    artist = st.text_input("Enter the name of the artist")
-    recommendation_amount = st.number_input("Enter the amount of recommendations you would like (Between 1-10)",step=1)
+with st.form("Choose an artist"):
+    artist = st.text_input("Enter the name of the artist", value="Bruno Mars")
+    recommendation_amount = st.number_input("Enter the amount of recommendations you would like (Between 1-20)",step=1, value=20)
+    if recommendation_amount > 20:
+        st.warning("Please keep recommendation amount between 1-20")
     submit = st.form_submit_button()
 
 if artist != "":
@@ -43,7 +45,7 @@ if artist != "":
     best_tracks, charts, map = st.tabs(['Best Songs', 'Charts', 'Map'])
 
     with best_tracks:
-        st.header("🎵Best Songs🎵")
+        st.header(f"🎵{artist_data['name']} Top Tracks🎵")
         message2 = spotify_Methods.getToptracks(token, artist_id)
         tracks = message2[0:9]
 
@@ -58,11 +60,12 @@ if artist != "":
                         st.write(album['name'])
 
     with charts:
+        st.title("Popularity Data for Top Tracks")
         name_popularity = [{"name": track["name"], "popularity": track["popularity"]} for track in message2]
         df = pd.DataFrame(name_popularity)
         col1, col2 = st.columns(2)
         with col1:
-            chart_type = st.selectbox(label="Select the type of chart", options=["Line chart", "Bar chart", "Table"])
+            chart_type = st.selectbox(label="Select the type of chart", options=["Line chart", "Bar chart", "Interactive Table"])
         with col2:
             color_picked = st.color_picker("Choose the color", "#1ed760")
 
@@ -91,7 +94,7 @@ if artist != "":
             st.dataframe(df_new)
 
     with map:
-        st.subheader("🎵Nearest Event of " + artist_data["name"] + "🎵")
+        st.title("🎵Nearest Event of " + artist_data["name"] + "🎵")
         mapView = st.checkbox("Show Map")
 
         if mapView:
@@ -100,3 +103,4 @@ if artist != "":
             main_functions.map_creator(coordinates[0], coordinates[1])
 else:
     st.error("🚨Please Enter an Artist🚨")
+
