@@ -1,5 +1,8 @@
 import json
 import requests
+import streamlit as st
+from streamlit import number_input
+
 
 #--------------------------------------------------------------------------------------
 
@@ -45,9 +48,18 @@ def getArtistCoordinates(artist_name):
     }
 
     response = requests.get(url, params=params)
+
     data = response.json()
-    events = data.get('_embedded').get('events')
+    events = data.get('_embedded', {}).get('events',[])
+
+    if not events:
+        return
+
     venue = events[0].get('_embedded', {}).get('venues', [])[0]
+    
+    if not venue:
+        return
+    
     location = venue.get('location').get('latitude'), venue.get('location').get('longitude')
 
     save_to_file(location, "artistCoordinates.json")
@@ -56,3 +68,4 @@ def getArtistCoordinates(artist_name):
 
 
 #--------------------------------------------------------------------------------------
+
