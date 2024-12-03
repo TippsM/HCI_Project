@@ -1,9 +1,12 @@
 import json
+from dbm import error
+
 import requests
 from dotenv import load_dotenv
 import os
 import base64
 from requests import post, get
+import streamlit as st
 
 
 #-----------------------------------------------------------------------------
@@ -73,15 +76,20 @@ def getRecommendation(artist_id,token):
 
     params = (
         ('market', 'US'),
-        ('seed_artists', artist_id),
-
+        ('seed_artists', artist_id)
     )
 
-    response = requests.get('https://api.spotify.com/v1/recommendations', headers=headers, params=params).json()
     lst=[]
-    for i in response["tracks"]:
-        song=(i["name"],i["album"]["artists"][0]["name"],i["external_urls"]["spotify"],i["album"]["images"][0]["url"])
-        lst.append(song)
+
+    try:
+
+        response = requests.get('https://api.spotify.com/v1/recommendations', headers=headers, params=params).json()
+        for i in response["tracks"]:
+            song=(i["name"],i["album"]["artists"][0]["name"],i["external_urls"]["spotify"],i["album"]["images"][0]["url"])
+            lst.append(song)
+
+    except error:
+        st.info("Unable to fetch Recommendations :(")
     return lst
 
 
@@ -104,3 +112,4 @@ def geArtistData(token, artist_id):
     country = {"market": "US"}
     result = get(url, headers=headers, params=country)
     return result.json()
+
