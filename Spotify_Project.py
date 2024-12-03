@@ -12,7 +12,7 @@ st.subheader("Let's Get Started!")
 
 
 with st.form("Choose an artist"):
-    artist = st.text_input("Enter the name of the artist")
+    artist = st.text_input("Enter the name of the artist", value="Bruno Mars")
     recommendation_amount = st.number_input("Enter the amount of recommendations you would like (Between 1-20)",step=1, value=10)
     if recommendation_amount > 20:
         st.warning("Please keep recommendation amount between 1-20")
@@ -22,19 +22,18 @@ if artist != "":
 
     token = spotify_Methods.get_token()
     artist_id = spotify_Methods.getArtistID(artist,token)
-    
-    # Recommendations is broken :(
-    # message = spotify_Methods.getRecommendation(artist_id,token)
-    # st.sidebar.info("Enjoy Recommendations Below!")
-    # st.sidebar.markdown("---")
-    #
-    # for i, song in enumerate(message):
-    #     if i >= recommendation_amount:  # Stop when the index reaches the amount
-    #         break
-    #     st.sidebar.image(song[3], use_container_width=True)
-    #     st.sidebar.subheader(song[1])
-    #     st.sidebar.markdown(f"[{song[0]}]({song[2]})")
-    #     st.sidebar.markdown("---")
+
+    message = spotify_Methods.getRecommendation(artist_id,token)
+    st.sidebar.info("Enjoy Recommendations Below!")
+    st.sidebar.markdown("---")
+
+    for i, song in enumerate(message):
+        if i >= recommendation_amount:
+            break
+        st.sidebar.image(song[3], use_container_width=True)
+        st.sidebar.subheader(song[1])
+        st.sidebar.markdown(f"[{song[0]}]({song[2]})")
+        st.sidebar.markdown("---")
 
     artist_id = spotify_Methods.getArtistID(artist, token)
     artist_data = spotify_Methods.geArtistData(token,artist_id)
@@ -100,8 +99,11 @@ if artist != "":
         mapView = st.checkbox("Show Map")
 
         if mapView:
-
             coordinates = main_functions.getArtistCoordinates(artist)
-            main_functions.map_creator(coordinates[0], coordinates[1])
+            if coordinates is None:
+                st.error("No Available Event for the artist.")
+            else:
+                main_functions.map_creator(coordinates[0], coordinates[1])
 else:
     st.error("🚨Please Enter an Artist🚨")
+
