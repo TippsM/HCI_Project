@@ -1,8 +1,7 @@
 import json
-import requests
 import streamlit as st
-from streamlit import number_input
 
+import requests
 
 #--------------------------------------------------------------------------------------
 
@@ -38,13 +37,12 @@ def map_creator(latitude, longitude):
 
 def getArtistCoordinates(artist_name):
 
-    my_keys = read_from_file("ticket_masterAPI.json")
-    ticket_master_key = my_keys["ticket_master"]
+    ticketmaster = st.secrets["TICKET_MASTER"]
 
     url = f"https://app.ticketmaster.com/discovery/v2/events.json"
     params = {
         'keyword': artist_name,
-        'apikey': ticket_master_key,
+        'apikey': ticketmaster,
     }
 
     response = requests.get(url, params=params)

@@ -1,2 +1,4 @@
-# Ignore all `.json` files
-*.env
+# Ignore .streamlit folder and other sensitive files
+
+.streamlit/
+.env

@@ -15,8 +15,11 @@ import streamlit as st
 
 load_dotenv()
 
-client_id = os.getenv("CLIENT_ID")
-client_secret = os.getenv("client_secret")
+#client_id = os.getenv("CLIENT_ID")
+#client_secret = os.getenv("client_secret")
+
+client_id = st.secrets["CLIENT_ID"]
+client_secret = st.secrets["CLIENT_SECRET"]
 
 def get_auth_header(token):
     return {"Authorization": "Bearer " + token}
@@ -62,8 +65,12 @@ def getArtistID(name, token):
         try:
             if "id" in i:
                 return i["id"]
+            return None
         except ValueError:
             print ("This artist is available")
+            return None
+    return None
+
 
 #-----------------------------------------------------------------------------
 
@@ -74,10 +81,10 @@ def getRecommendation(artist_id,token):
         'Authorization': 'Bearer ' + token,
     }
 
-    params = (
+    params = {
         ('market', 'US'),
         ('seed_artists', artist_id)
-    )
+    }
 
     lst=[]
 
